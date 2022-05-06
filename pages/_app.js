@@ -10,8 +10,6 @@ import {
 
 import { chain, createClient, WagmiProvider } from 'wagmi';
 
-...
-import { chain, createClient, WagmiProvider } from 'wagmi';
 const { chains, provider } = configureChains(
   [chain.mainnet, chain.polygon, chain.optimism, chain.arbitrum],
   [
